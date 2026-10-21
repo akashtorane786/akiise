@@ -11,9 +11,11 @@
 - [x] Git identity set
 - [x] Repo created and cloned
 - [x] Folder structure
+- [x] PostgreSQL installed, practice_catalog database created
+- [x] categories and products tables with sample data (mini project 01)
 
 ## Next task
-- Day 2: install PostgreSQL, design the products and categories tables
+- Day 3: create the Spring Boot project (Java 21) and the first GET endpoint for mini project 01
 
 ## Known problems
 - None yet
