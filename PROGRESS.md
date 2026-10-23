@@ -13,9 +13,9 @@
 - [x] Folder structure
 - [x] PostgreSQL installed, practice_catalog database created
 - [x] categories and products tables with sample data (mini project 01)
+- [x] Spring Boot project runs and GET /products works (mini project 01)
 
 ## Next task
-- Day 3: create the Spring Boot project (Java 21) and the first GET endpoint for mini project 01
-
+- Day 4: add GET /products/{id}, a categories endpoint, and a 404 for missing products
 ## Known problems
 - None yet
