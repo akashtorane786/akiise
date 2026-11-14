@@ -5,6 +5,7 @@ Spring Boot + PostgreSQL API that returns products from a database.
 ## What I learned
 - Table design: primary keys, foreign keys, CHECK rules, NUMERIC for money
 - How controller, repository and entity work together in Spring Boot
+- Pagination, filtering and sorting with one query
 - Keeping passwords out of Git with .gitignore
 
 ## Run it
@@ -13,5 +14,7 @@ Spring Boot + PostgreSQL API that returns products from a database.
 3. In `product-catalog`, run `.\mvnw spring-boot:run`
 4. Open http://localhost:8080/products
 
-## Next
-- Add GET /products/{id}, categories, pagination and filters
+## Endpoints
+- GET /products (filters: categoryId, maxPrice; paging: page, size; sorting: sortBy, direction)
+- GET /products/{id} (404 if not found)
+- GET /categories
