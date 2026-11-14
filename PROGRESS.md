@@ -14,8 +14,10 @@
 - [x] PostgreSQL installed, practice_catalog database created
 - [x] categories and products tables with sample data (mini project 01)
 - [x] Spring Boot project runs and GET /products works (mini project 01)
+- [x] GET /products/{id} with 404 handling
+- [x] GET /categories endpoint
 
 ## Next task
-- Day 4: add GET /products/{id}, a categories endpoint, and a 404 for missing products
+- Day 5: add pagination and filters to GET /products (by category, by price)
 ## Known problems
 - None yet
